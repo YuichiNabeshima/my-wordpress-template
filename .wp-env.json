@@ -1,0 +1,9 @@
+{
+  "core": "https://ja.wordpress.org/wordpress-6.5-ja.zip",
+  "mappings": {
+    "wp-content/themes/template-name/": "./wp/"
+  },
+  "config": {
+    "WP_DEBUG": true
+  }
+}

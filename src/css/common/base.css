@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: .3s;
+
+  &:hover {
+    @mixin pc {
+      opacity: .6;
+    }
+  }
+}
+
+.pc-none {
+  @mixin pc {
+    display: none;
+  }
+}
+
+.sp-none {
+  @mixin sp {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "my-wordpress-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "wp-env": "wp-env",
+    "dev": "vite",
+    "build": "tsc && vite build && node build.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^9.7.0",
+    "glob": "^10.3.12",
+    "postcss-import": "^16.1.0",
+    "postcss-media-minmax": "^5.0.0",
+    "postcss-mixins": "^10.0.0",
+    "postcss-nested": "^6.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
