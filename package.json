@@ -6,7 +6,7 @@
   "scripts": {
     "wp-env": "wp-env",
     "dev": "vite",
-    "build": "tsc && vite build && node build.js",
+    "build": "tsc && node build.js",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,6 +17,6 @@
     "postcss-mixins": "^10.0.0",
     "postcss-nested": "^6.0.1",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "vite": "^5.3.1"
   }
 }
