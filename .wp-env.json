@@ -1,5 +1,5 @@
 {
-  "core": "https://ja.wordpress.org/wordpress-6.5-ja.zip",
+  "core": "https://en-ca.wordpress.org/wordpress-6.6-en_CA.zip",
   "mappings": {
     "wp-content/themes/template-name/": "./wp/"
   },

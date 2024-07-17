@@ -10,6 +10,8 @@ function is_json(target: any): boolean {
   return true;
 }
 
+const BREAK_POINT = 768;
+
 /**
  * Whether the match argument to current device.
  */
@@ -18,10 +20,10 @@ function checkDevice( device: 'pc' | 'sp' | null ): boolean {
   if (!device) {
     return true;
   }
-  if (wsw < 768 && device === 'sp') {
+  if (wsw < BREAK_POINT && device === 'sp') {
     return true;
   }
-  if (wsw >= 768 && device === 'pc') {
+  if (wsw >= BREAK_POINT && device === 'pc') {
     return true;
   }
   return false;
