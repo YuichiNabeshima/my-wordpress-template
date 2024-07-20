@@ -47,8 +47,7 @@
 <?php
   else:
 ?>
-  <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/<?=$css?>_pc.css" media="screen and (min-width: 768px)">
-  <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/<?=$css?>_sp.css" media="screen and (max-width: 767px)">
+  <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/assets/css/<?=$css?>.css">
 <?php
   endif;
 

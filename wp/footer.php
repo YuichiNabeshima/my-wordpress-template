@@ -16,7 +16,7 @@
 <?php
   else:
 ?>
-  <script type="module" src="<?=get_stylesheet_directory_uri()?>/assets/js/<?=$js?>.js"></script>
+  <script src="<?=get_stylesheet_directory_uri()?>/assets/js/<?=$js?>.js"></script>
 <?php
   endif;
 
